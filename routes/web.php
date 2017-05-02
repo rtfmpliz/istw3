@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 Route::get('/truck', 'TruckController@index');
 Route::get('/truck/{id}', 'TruckController@single');
+Route::get('/surat', 'SuratController@index');
+Route::get('/surat/{id}', 'SuratController@single');
