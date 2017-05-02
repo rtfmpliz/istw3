@@ -11,6 +11,8 @@
 <th>Jenis Surat</th>
 <th>No Resi</th>
 <th>Kepada</th>
+<th>Edit</th>
+<th>Hapus</th>
 </tr>
 <tbody>
 
@@ -24,6 +26,8 @@
 <th> {{$surat->jenis}}</th>
 <th> {{$surat->noresi}}</th>
 <th> {{$surat->kepada}}</th>
+<th> <span class="glyphicon glyphicon-edit"> </span>Edit</th>
+<th> <span class="glyphicon glyphicon-remove-sign"> </span>Delete</th>
 @endforeach
 </tr>
 @endif
